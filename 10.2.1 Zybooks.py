@@ -5,15 +5,11 @@ Only the set returned by generate_users() will be graded for this assignment.
 The function should work for any string and positive integer passed to the function beyond the examples provided.'''
 
 def generate_users(username_string, num_accounts):
-    username_string_concat = [username_string + str(num_accounts) for num_accounts in range(0, 256)]
-
-    for i in username_string_concat:
-        print(i)
-
-
+    username_string_concat = {username_string + str(i) for i in range(1, num_accounts + 1)}
+    return username_string_concat
 
 
 # You may alter the code below to view your return value(s).
 # Only the generate_users function will be graded for this assessment.
 
-print(generate_users("test_account", 4))
+print(generate_users("test_account", 5))
