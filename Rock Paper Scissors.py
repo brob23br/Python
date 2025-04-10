@@ -32,7 +32,7 @@ num = randint(1,3)
 computer_move = num
 
 # Ask a user to enter their move
-user_move = input("Select rock, paper, or scissors: ")
+user_move = input("Select rock, paper, or scissors: ").lower()
 
 # Print the rock, paper, or scissors ASCII art that corresponds to the player's move
 if user_move == "rock":
