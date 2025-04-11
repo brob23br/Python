@@ -34,7 +34,7 @@ while True:
     
     # Ask a user to enter their move
     user_move = input("\nSelect rock, paper, or scissors (or 'q' tp quit): ").lower()
-    if user_move == "q"
+    if user_move == "q":
         print("Thanks for playing."
         break
     
