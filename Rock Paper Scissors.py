@@ -35,7 +35,7 @@ while True:
     # Ask a user to enter their move
     user_move = input("\nSelect rock, paper, or scissors (or 'q' tp quit): ").lower()
     if user_move == "q":
-        print("Thanks for playing."
+        print("Thanks for playing.")
         break
     
     # Print the rock, paper, or scissors ASCII art that corresponds to the player's move
