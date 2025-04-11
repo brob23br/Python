@@ -47,7 +47,7 @@ while True:
         print(f"You selected {scissors}")
     else:
         print("invalid selection")
-    
+        continue
     # Print the rock, paper, or scissors ASCII art that corresponds to the computer's move
     if computer_move == 1:
         print(f"Computer selected {rock}")
